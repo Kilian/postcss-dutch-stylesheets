@@ -46,9 +46,9 @@ describe('postcss-dutch-stylesheets', () => {
   Object.keys(values).forEach((value) => valueTest(values[value], value))
 
   // Test important
-  it('converts !wichtig to !important', (done) => {
+  it('converts !belangrijk to !important', (done) => {
     run(
-      'a{ color: white !wichtig; }',
+      'a{ color: white !belangrijk; }',
       'a{ color: white !important; }',
       {},
       done
