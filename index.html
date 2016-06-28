@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>PostCSS German Style Sheets by timche</title>
+    <title>PostCSS Dutch Style Sheets by Kilian Valkhof</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,39 +11,39 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">PostCSS German Style Sheets</h1>
-      <h2 class="project-tagline">PostCSS plugin for writing German Style Sheets</h2>
-      <a href="https://github.com/timche/postcss-german-stylesheets" class="btn">View on GitHub</a>
-      <a href="https://github.com/timche/postcss-german-stylesheets/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/timche/postcss-german-stylesheets/tarball/master" class="btn">Download .tar.gz</a>
+      <h1 class="project-name">PostCSS Dutch Style Sheets</h1>
+      <h2 class="project-tagline">PostCSS plugin for writing Dutch Style Sheets</h2>
+      <a href="https://github.com/kilian/postcss-dutch-stylesheets" class="btn">View on GitHub</a>
+      <a href="https://github.com/kilian/postcss-dutch-stylesheets/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/kilian/postcss-dutch-stylesheets/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
       <h1>
-<a id="postcss-german-style-sheets" class="anchor" href="#postcss-german-style-sheets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PostCSS German Style Sheets</h1>
+<a id="postcss-dutch-style-sheets" class="anchor" href="#postcss-dutch-style-sheets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PostCSS Dutch Style Sheets</h1>
 
-<p><a href="https://travis-ci.org/timche/postcss-german-stylesheets"><img src="https://img.shields.io/travis/timche/postcss-german-stylesheets.svg?style=flat-square" alt="travis"></a>
-<a href="https://www.npmjs.com/package/postcss-german-stylesheets"><img src="https://img.shields.io/npm/v/postcss-german-stylesheets.svg?style=flat-square" alt="npm"></a></p>
+<p><a href="https://travis-ci.org/kilian/postcss-dutch-stylesheets"><img src="https://img.shields.io/travis/kilian/postcss-dutch-stylesheets.svg?style=flat-square" alt="travis"></a>
+<a href="https://www.npmjs.com/package/postcss-dutch-stylesheets"><img src="https://img.shields.io/npm/v/postcss-dutch-stylesheets.svg?style=flat-square" alt="npm"></a></p>
 
 <blockquote>
-<p><a href="https://github.com/postcss/postcss">PostCSS</a> plugin for writing German Style Sheets.</p>
+<p><a href="https://github.com/postcss/postcss">PostCSS</a> plugin for writing Dutch Style Sheets.</p>
 </blockquote>
 
-<p>Take CSS to the next level and write your CSS in German!</p>
+<p>Take CSS to the next level and write your CSS in Dutch!</p>
 
 <h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
 
-<div class="highlight highlight-text-shell-session"><pre>$ <span class="pl-s1">npm install postcss-german-stylesheets</span></pre></div>
+<div class="highlight highlight-text-shell-session"><pre>$ <span class="pl-s1">npm install postcss-dutch-stylesheets</span></pre></div>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
 
 <div class="highlight highlight-source-js"><pre><span class="pl-c">// ES5</span>
-<span class="pl-k">var</span> germanStyleSheets <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>postcss-german-stylesheets<span class="pl-pds">'</span></span>)
+<span class="pl-k">var</span> dutchStyleSheets <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>postcss-dutch-stylesheets<span class="pl-pds">'</span></span>)
 
 <span class="pl-c">// ES6</span>
-<span class="pl-k">import</span> <span class="pl-smi">germanStyleSheets</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>postcss-german-stylesheets<span class="pl-pds">'</span></span></pre></div>
+<span class="pl-k">import</span> <span class="pl-smi">dutchStyleSheets</span> <span class="pl-k">from</span> <span class="pl-s"><span class="pl-pds">'</span>postcss-dutch-stylesheets<span class="pl-pds">'</span></span></pre></div>
 
 <p>See <a href="https://github.com/postcss/postcss#usage">PostCSS#Usage</a> for usage for your environment.</p>
 
@@ -53,11 +53,11 @@
 <p>Using this <code>input.css</code>:</p>
 
 <div class="highlight highlight-source-css"><pre><span class="pl-e">.foo</span> {
-    <span class="pl-c1">h</span>ö<span class="pl-c1">he</span>: <span class="pl-c1">300<span class="pl-k">px</span></span>;
-    <span class="pl-c1">au</span>ß<span class="pl-c1">enabstand-unten</span>: <span class="pl-c1">10<span class="pl-k">px</span></span>;
-    <span class="pl-c1">schriftgr</span>öß<span class="pl-c1">e</span>: <span class="pl-c1">20<span class="pl-k">px</span></span> !wichtig;
-    <span class="pl-c1">hintergrundfarbe</span>: schwarz;
-    <span class="pl-c1">farbe</span>: weiß;
+    <span class="pl-c1">hoogte: <span class="pl-c1">300<span class="pl-k">px</span></span>;
+    <span class="pl-c1">ondermarge: <span class="pl-c1">10<span class="pl-k">px</span></span>;
+    <span class="pl-c1">tekstgrootte: <span class="pl-c1">20<span class="pl-k">px</span></span> !belangrijk;
+    <span class="pl-c1">achtergrondkleur: zwart;
+    <span class="pl-c1">kleur</span>: wit;
 }</pre></div>
 
 <p>you will get:</p>
@@ -74,27 +74,32 @@
 <a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
 
 <ul>
-<li><a href="https://github.com/timche/postcss-german-stylesheets/blob/master/docs/Properties.md">Properties</a></li>
-<li><a href="https://github.com/timche/postcss-german-stylesheets/blob/master/docs/Values.md">Values</a></li>
+<li><a href="https://github.com/kilian/postcss-dutch-stylesheets/blob/master/docs/Properties.md">Properties</a></li>
+<li><a href="https://github.com/kilian/postcss-dutch-stylesheets/blob/master/docs/Values.md">Values</a></li>
 </ul>
 
 <h2>
 <a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
 
-<p><code>postcss-german-stylesheets</code> has only a subset of CSS and needs your help to add more German properties and values.</p>
+<p><code>postcss-dutch-stylesheets</code> has only a subset of CSS and needs your help to add more Dutch properties and values.</p>
 
 <h2>
 <a id="changelog" class="anchor" href="#changelog" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Changelog</h2>
 
-<p>See <a href="https://github.com/timche/postcss-german-stylesheets/blob/master/CHANGELOG.md">CHANGELOG.md</a>.</p>
+<p>See <a href="https://github.com/kilian/postcss-dutch-stylesheets/blob/master/CHANGELOG.md">CHANGELOG.md</a>.</p>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
 
-<p>See <a href="https://github.com/timche/postcss-german-stylesheets/blob/master/LICENSE">LICENSE</a>.</p>
+<p>See <a href="https://github.com/kilian/postcss-dutch-stylesheets/blob/master/LICENSE">LICENSE</a>.</p>
+
+<h2>
+<a id="attribution" class="anchor" href="#atribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Attribution</h2>
+
+<p>Postcss-dutch-stylesheets is fully based on <a href="https://github.com/timche/postcss-german-stylesheets">postcss-german-stylesheets</a> by <a href="https://github.com/timche">timche</a>, all credit goes to them.
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/timche/postcss-german-stylesheets">PostCSS German Style Sheets</a> is maintained by <a href="https://github.com/timche">timche</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/kilian/postcss-dutch-stylesheets">PostCSS Dutch Style Sheets</a> is maintained by <a href="https://github.com/kilian">Kilian Valkhof</a>.</span>
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
