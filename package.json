@@ -1,7 +1,7 @@
 {
-  "name": "postcss-german-stylesheets",
-  "version": "1.0.1",
-  "description": "PostCSS plugin for writing German Stylesheets",
+  "name": "postcss-dutch-stylesheets",
+  "version": "1.0.0",
+  "description": "PostCSS plugin for writing Dutch Stylesheets",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf docs index.js",
@@ -19,18 +19,18 @@
     "postcss-plugin",
     "css",
     "stylesheet",
-    "german"
+    "dutch"
   ],
-  "author": "Tim Cheung <tim@cheung.io> (https://github.com/timche)",
+  "author": "Kilian Valkhof <kilian@kilianvalkhof.com> (https://github.com/kilian)",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/timche/postcss-german-stylesheets.git"
+    "url": "https://github.com/kilian/postcss-dutch-stylesheets.git"
   },
   "bugs": {
-    "url": "https://github.com/timche/postcss-german-stylesheets/issues"
+    "url": "https://github.com/kilian/postcss-dutch-stylesheets/issues"
   },
-  "homepage": "http://timche.github.io/postcss-german-stylesheets",
+  "homepage": "http://kilian.github.io/postcss-dutch-stylesheets",
   "dependencies": {
     "postcss": "^5.0.19"
   },

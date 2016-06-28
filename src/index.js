@@ -2,7 +2,7 @@ import postcss from 'postcss'
 import properties from './properties'
 import values from './values'
 
-export default postcss.plugin('postcss-german-stylesheets', (opts) => {
+export default postcss.plugin('postcss-dutch-stylesheets', (opts) => {
   opts = opts || {}
 
   return (css) => {
@@ -24,10 +24,10 @@ export default postcss.plugin('postcss-german-stylesheets', (opts) => {
       })
 
       /**
-       * Convert "!wichtig"
+       * Convert "!belangrijk"
        */
-      if (decl.value.indexOf('!wichtig') >= 0) {
-        decl.value = decl.value.replace(/\s*!wichtig\s*/, '')
+      if (decl.value.indexOf('!belangrijk') >= 0) {
+        decl.value = decl.value.replace(/\s*!belangrijk\s*/, '')
         decl.important = true
       }
     })

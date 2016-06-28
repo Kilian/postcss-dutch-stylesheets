@@ -16,7 +16,7 @@ if (!fs.existsSync(DOCS_PATH)) {
  * Properties
  */
 const PROPERTIES_PATH = `${DOCS_PATH}/Properties.md`
-let propertiesDocContent = '# Properties\n| English | German |\n| ------ | ------ |'
+let propertiesDocContent = '# Properties\n| English | Dutch |\n| ------ | ------ |'
 
 Object.keys(properties).forEach(property => (
   propertiesDocContent += `\n| \` ${property} \` | \`${properties[property]}\` |`
@@ -32,7 +32,7 @@ fs.writeFile(PROPERTIES_PATH, propertiesDocContent, error => {
  * Values
  */
 const VALUES_PATH = `${DOCS_PATH}/Values.md`
-let valuesDocContent = '# Values\n| English | German |\n| ------ | ------ |'
+let valuesDocContent = '# Values\n| English | Dutch |\n| ------ | ------ |'
 
 Object.keys(values).forEach(value => (
   valuesDocContent += `\n| \` ${value} \` | \`${values[value]}\` |`
