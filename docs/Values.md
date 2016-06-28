@@ -64,7 +64,7 @@
 | ` indianred ` | `indischrood` |
 | ` ivory ` | `ivoor` |
 | ` khaki ` | `kaki` |
-| ` lavenderblush ` | `lavendel` |
+| ` lavenderblush ` | `lavendelbloesem` |
 | ` lawngreen ` | `grasgroen` |
 | ` lemonchiffon ` | `vaalgeel` |
 | ` lightblue ` | `felblauw` |
@@ -79,7 +79,7 @@
 | ` lightslategray ` | `lichtleigrijs` |
 | ` lightsteelblue ` | `lichtstaalblauw` |
 | ` lightyellow ` | `lichtgeel` |
-| ` limegreen ` | `limoen` |
+| ` limegreen ` | `limoengroen` |
 | ` linen ` | `linnen` |
 | ` maroon ` | `kastanjebruin` |
 | ` midnightblue ` | `midnachtsblauw` |
@@ -93,7 +93,7 @@
 | ` orangered ` | `ornajerood` |
 | ` orchid ` | `orchidee` |
 | ` palegoldenrod ` | `bleekgoudstaaf` |
-| ` palegreen ` | `lichtgroen` |
+| ` palegreen ` | `vaalgroen` |
 | ` paleturquoise ` | `lichtturkoois` |
 | ` papayawhip ` | `papayacreme` |
 | ` peachpuff ` | `perzik` |

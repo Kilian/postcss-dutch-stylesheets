@@ -1,6 +1,6 @@
 # PostCSS Dutch Style Sheets
 
-[![travis](https://img.shields.io/travis/kilian/postcss-dutch-stylesheets.svg?style=flat-square)](https://travis-ci.org/kilian/postcss-dutch-stylesheets)
+[![travis](https://img.shields.io/travis/Kilian/postcss-dutch-stylesheets.svg?style=flat-square)](https://travis-ci.org/Kilian/postcss-dutch-stylesheets)
 [![npm](https://img.shields.io/npm/v/postcss-dutch-stylesheets.svg?style=flat-square)](https://www.npmjs.com/package/postcss-dutch-stylesheets)
 
 > [PostCSS](https://github.com/postcss/postcss) plugin for writing Dutch Style Sheets.
@@ -58,7 +58,7 @@ you will get:
 
 ## Contributing
 
-`postcss-ditch-stylesheets` has only a subset of CSS and needs your help to add more Dutch properties and values.
+`postcss-dutch-stylesheets` has only a subset of CSS and needs your help to add more Dutch properties and values.
 
 ## Changelog
 
