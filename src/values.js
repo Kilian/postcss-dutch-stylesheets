@@ -92,7 +92,7 @@ export default {
   'navy': 'marineblauw',
   'oldlace': 'oudkant',
   'olivedrab': 'olijfbruin',
-  'orangered': 'ornajerood',
+  'orangered': 'oranjerood',
   'orchid': 'orchidee',
   'palegoldenrod': 'bleekgoudstaaf',
   'palegreen': 'vaalgroen',
