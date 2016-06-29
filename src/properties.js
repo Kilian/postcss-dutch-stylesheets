@@ -126,7 +126,7 @@ export default {
   'padding-right': 'rechtervulling',
   'padding-top': 'bovenvulling',
   'padding': 'vulling',
-  'perspective-origin': 'perspectief-oorspring',
+  'perspective-origin': 'perspectief-oorsprong',
   'perspective': 'perspectief',
   'pointer-events': 'aanwijzergebeurtenis',
   'position': 'positie',
