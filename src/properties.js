@@ -83,7 +83,7 @@ export default {
   'flex': 'flex',
   'float': 'drijf',
   'font-family': 'lettertype',
-  'font-feature-settings': 'lettertypeeigenschappen-einstellungen',
+  'font-feature-settings': 'lettertypeeigenschappen-instellingen',
   'font-size': 'lettergrootte',
   'font-size-adjust': 'lettergrootte-aanpassing',
   'font-style': 'font-stijl',
