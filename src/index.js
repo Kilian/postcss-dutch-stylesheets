@@ -11,7 +11,8 @@ export default postcss.plugin('postcss-dutch-stylesheets', (opts) => {
        * Convert Properties
        */
       Object.keys(properties).forEach((property) => {
-        if (decl.prop === properties[property]) {
+        if (decl.prop === properties[property] ||
+          (Array.isArray(properties[property]) && properties[property].indexOf(decl.prop) !== -1)) {
           decl.prop = property
         }
       })

@@ -155,7 +155,7 @@
 | ` vertical-align ` | `verticale-uitlijning` |
 | ` visibility ` | `zichtbaarheid` |
 | ` white-space ` | `witruimte` |
-| ` widows ` | `weduwen` |
+| ` widows ` | `weduwen`,`h-jong`,`hjong`,`hoerenjong` |
 | ` width ` | `breedte` |
 | ` word-break ` | `woordafbraak` |
 | ` word-spacing ` | `woordafstand` |

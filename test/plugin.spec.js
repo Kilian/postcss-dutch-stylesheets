@@ -40,7 +40,13 @@ function valueTest(dutch, english, property = 'dutch') {
 
 describe('postcss-dutch-stylesheets', () => {
   // Test Properties
-  Object.keys(properties).forEach((property) => propertyTest(properties[property], property))
+  Object.keys(properties).forEach((property) => {
+    if (Array.isArray(properties[property])) {
+        properties[property].forEach((propertyOption) => propertyTest(propertyOption, property));
+    } else {
+      propertyTest(properties[property], property);  
+    }    
+  });
 
   // Test Values
   Object.keys(values).forEach((value) => valueTest(values[value], value))
