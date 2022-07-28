@@ -57,7 +57,7 @@ export default {
   'dimgrey': 'gedimtgrijs',
   'dodgerblue': 'persenningblauw',
   'firebrick': 'baksteen',
-  'floralwhite': 'bloemenwid',
+  'floralwhite': 'bloemenwit',
   'forestgreen': 'bosgroen',
   'ghostwhite': 'geestenwit',
   'greenyellow': 'groengeel',
